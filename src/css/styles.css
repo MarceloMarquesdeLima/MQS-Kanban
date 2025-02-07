@@ -106,3 +106,68 @@ body {
     box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
+
+.badge {
+    color: #ffffff;
+    width:fit-content;
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 12px;
+}
+
+.badge.hight {
+    background-color: #d573b6;
+}
+
+.badge.medium {
+    background-color: #fea065;
+}
+
+.badge.low {
+    background-color: #92a5fb;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards-icons {
+    display: flex;
+    gap: 18px;
+}
+
+.cards-icons i {
+    color: #a8a8aa;
+}
+
+.user img {
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.dragging {
+    opacity: 0.5;
+}
+
+.cards-hover {
+    background-color: #eaeffa;
+    border-radius: 8px;
+}
+
+*::-webkit-scrollbar {
+    width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: #eaeffa;
+    border-radius: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #b7d3fb;
+    border-radius: 20px;
+}
